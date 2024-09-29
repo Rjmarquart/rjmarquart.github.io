@@ -21,7 +21,7 @@ sequenceDiagram
 3. **WebServer to Firewall**: The web server notices the usual spike in traffic and communicates with the firewall to investigate and mitigate the issue.
 
 4. **Firewall's Response**:
-- The firewall analyzes traffic patterns to identify legitimate requests and to filter out malicious traffic.
-- The firewall blocks IPs associated with the BotNet, reducing the attack's impact.
+  - The firewall analyzes traffic patterns to identify legitimate requests and to filter out malicious traffic.
+  - The firewall blocks IPs associated with the BotNet, reducing the attack's impact.
 
 5. **WebServer Impact**: Despite the firewall's efforts, the server may still experience slowdowns; however, implementing traffic filtering makes it possible to recover over time. 
